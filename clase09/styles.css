@@ -1,0 +1,19 @@
+/*Ejemplo de estilo externo*/
+p{color: red;}
+h1{color: blue;
+    text-decoration: underline;
+    text-align: center;}
+h2{color: fuchsia;
+    text-align: center;}
+.letra{color: orange; 
+    font-weight: bold;
+    font-size: 30px;}
+.letra2{color: yellow; 
+    font-weight: bold;
+    font-size: 30px;}
+span.letra2{color: skyblue; 
+    font-weight: bold;
+    font-size: 30px;}
+span{color: violet; 
+    font-weight: bold;
+    font-size: 30px;}
