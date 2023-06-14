@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding:0;
+    }
+    div{
+    background-color:#ffffaa;
+    margin:20px;
+    border-width:1px;
+    border-style:solid;
+    border-color:#ff0000;
+    }
+    p{
+    padding: 10px;
+    }
