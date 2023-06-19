@@ -1,0 +1,35 @@
+.inicio{
+    border: 10px solid rgb(78, 165, 199);
+    background-color: rgb(78, 165, 199);
+    color: white;
+    text-decoration: none;
+}
+.nosotros{
+    border: 10px solid rgb(78, 165, 199);
+    background-color: rgb(78, 165, 199);
+    color: white;
+    text-decoration: none;
+}
+.servicios{
+    border: 10px solid rgb(78, 165, 199);
+    background-color: rgb(78, 165, 199);
+    color: white;
+    text-decoration: none;
+}
+.recuerdos{
+    border: 10px solid rgb(78, 165, 199);
+    background-color: rgb(78, 165, 199);
+    color: white;
+    text-decoration: none;
+}
+.contactanos{
+    border: 10px solid rgb(78, 165, 199);
+    background-color: rgb(78, 165, 199);
+    color: white;
+    text-decoration: none;
+}
+.caja{
+    border: 0px solid black;
+    padding: 20px;
+    background-color: skyblue;
+}
