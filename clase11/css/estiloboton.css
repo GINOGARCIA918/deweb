@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.caja{
+    border:3px solid;
+    border-color: red;
+    border-radius: 20px;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0 0 50px;
+}
+.h2{
+    text-align: center;
+}
+.p{
+    text-align: justify;
+}
+.boton{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 15px 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    transition-property: background-color,color;
+}
+.boton:hover{
+    background-color: yellow;
+    color: black;
+    transition: 1000ms;
+}

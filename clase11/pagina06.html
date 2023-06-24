@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformacion 2D: múltiples transformaciones en forma simultanea</title>
+    <style>
+        .recuadro1{
+            border-radius: 20px;
+            background-color: #ddd;
+            width: 200px;
+            padding: 10px;
+            transition: transform 2000ms;
+        }
+        .recuadro1:hover{
+            transform: rotate(15deg) scale(0.9,0.6) translate(10px,10px) skew(5deg,0deg);
+        }
+        body{
+            background: white;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="recuadro1">
+        <h3>Recuadro 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint deserunt minima laborum temporibus itaque minus doloribus dolore excepturi? Porro in adipisci maiores tenetur id nobis soluta quae repellat commodi atque!</p>
+    </div>
+    <br>
+    <a href="index.html"><h2>Volver</h2></a>
+</body>
+</html>

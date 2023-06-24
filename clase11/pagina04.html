@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformacion 2D: torcer(transform:skew)</title>
+    <style>
+        .recuadro1{
+            border-radius: 20px;
+            background-color: #ddd;
+            width: 200px;
+            padding: 10px;
+            transition: transform 2000ms;
+        }
+        .recuadro1:hover{
+            transform: skew(20deg,0deg);
+        }
+        .recuadro2{
+            border-radius: 20px;
+            background-color: #ddd;
+            width:200px;
+            padding: 10px;
+            margin-top:70px;
+            transition: transform 2000ms;
+        }
+        .recuadro2:hover{
+            transform: skew(0deg,20deg);
+        }
+        .recuadro3{
+            border-radius: 20px;
+            background-color: #ddd;
+            width:200px;
+            padding: 10px;
+            margin-top:70px;
+            transition: transform 2000ms;
+        }
+        .recuadro3:hover{
+            transform: skew(20deg,20deg);
+        }
+        body{
+            background: white;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="recuadro1">
+        <h3>Recuadro 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quas ad quisquam voluptate deleniti ipsa. Doloribus reprehenderit quisquam, laudantium distinctio at sed veniam? Assumenda, porro! Consectetur fugiat amet quos nemo.</p>
+    </div>
+    <div class="recuadro2">
+        <h3>Recuadro 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quod pariatur, animi debitis, magnam iure provident, tempora architecto impedit itaque commodi laborum excepturi delectus possimus. Natus vitae voluptatibus a excepturi.</p>
+    </div>
+    <div class="recuadro3">
+        <h3>Recuadro 3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic magni consequuntur nemo iste, ad in, doloremque tempora possimus at, reprehenderit soluta ea ratione natus harum. Modi consectetur perferendis distinctio dolor!</p>
+    </div>
+    <br>
+    <a href="index.html"><h2>Volver</h2></a>
+</body>
+</html>

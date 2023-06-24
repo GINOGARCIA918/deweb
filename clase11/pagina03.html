@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformaciones 2D: escalado (transform:scale)</title>
+    <style>
+        .recuadro1{
+            border-radius: 20px;
+            background-color: #ddd;
+            width: 200px;
+            padding: 10px;
+            transition: transform 2000ms;
+        }
+        .recuadro1:hover{
+            transform: scale(0.8,1.2);
+        }
+        .recuadro2{
+            border-radius: 20px 40px 40px 20px;
+            background-color: #aa0;
+            width: 200px;
+            padding: 10px;
+            margin-top: 70px;
+            transition: transform 3000ms;
+        }
+        .recuadro2:hover{
+            transform: scale(1.20,-1);
+        }
+        body{
+            background: white;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="recuadro1">
+        <h3>Recuadro 1</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut soluta numquam, exercitationem, fugit vel suscipit reprehenderit id est quam dolorum corrupti iste totam perferendis minima odio quasi voluptas asperiores facere.</p>
+    </div>
+    <div class="recuadro2">
+        <h3>Recuadro 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vel, earum sed delectus debitis atque odio vero facere praesentium magnam doloribus totam quaerat harum excepturi aperiam dolore dolor. Nobis, dolores.</p>
+    </div>
+    <br>
+    <a href="index.html"><h2>Volver</h2></a>
+</body>
+</html>

@@ -1,0 +1,33 @@
+*{
+    margin: 0   ;
+}
+body{
+    background-color: azure;
+    margin: 50px;
+}
+h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.backbox{
+    width: 220px;
+    height: 220px;
+    background-color: black;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.recuadro1{
+    width: 200px;
+    height: 200px;
+    background-color: #aa0;
+    border-radius: 20px;
+    padding: 10px;
+    transition: transform 2000ms;
+}
+.recuadro1:hover{
+    /*transform: translate(65px,65px);*/
+    /*transform: translateY(54px);*/
+    /*transform: rotate(1800deg);*/
+    /*transform: scale(5);*/
+    transform: skewY(-3000deg);
+}
