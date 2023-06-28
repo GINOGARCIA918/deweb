@@ -1,0 +1,46 @@
+.contenedor{
+    width: 800px;
+    height: 700px;
+    background-color: black;
+    margin: auto;
+}
+div{
+    display: inline-block;
+}
+.caja_amarillo{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    /*transition-property: background-color, border-radius;
+    transition-duration: 1500ms;*/
+    transition: background-color, border-radius 3500ms;
+}
+.caja_amarillo:hover{
+    background-color: violet;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+.caja_rojo{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 10px;
+    transition: all 2500ms;
+}
+.caja_rojo:hover{
+    background-color: blue;
+    opacity: 0.2;
+    transform: scale(.8);
+}
+.caja_verde{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transition: 2500ms;
+}
+.caja_verde:hover{
+    background-color: rgb(0, 128, 0, 0.4);
+}
+.caja_verde:active{
+    transform: scale(.6);
+}
