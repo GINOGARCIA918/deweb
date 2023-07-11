@@ -1,0 +1,28 @@
+.cuerpo{
+    background-color: rgb(245, 118, 118);
+}
+.boton1{
+    background-color:rgba(149, 76, 188, 0.891);
+    border-radius: 20px;
+    width: 90px;
+    margin: 5px;
+    box-shadow: 5px 5px 5px;
+}
+.boton2{
+    background-color:rgba(149, 76, 188, 0.891);
+    border-radius: 20px;
+    width: 90px;
+    margin: 5px;
+}
+.boton3{
+    background-color:rgba(149, 76, 188, 0.891);
+    border-radius: 20px;
+    width: 90px;
+    margin: 5px;
+}
+.boton4{
+    background-color:rgba(149, 76, 188, 0.891);
+    border-radius: 20px;
+    width: 90px;
+    margin: 5px;
+}

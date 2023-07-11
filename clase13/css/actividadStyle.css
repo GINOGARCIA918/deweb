@@ -1,0 +1,32 @@
+.caja{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px auto;
+    margin: 50px auto;
+    text-shadow: 10px 4px 2px red   ;
+    color: yellow;
+    background-color: red;
+    box-shadow: 10px 5px 5px blue;
+    transition: transform 2000ms;
+    text-shadow: 8px 7px 2px black;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    
+}
+.caja:hover{
+    /*transform: translate(50px,30px);*/
+    /*transform: translate(65px,65px);*/
+    /*transform: translateY(54px);*/
+    /*transform: rotate(1800deg);*/
+    transform: scale(5);
+}
+.caja p{
+    color: blue;
+    text-shadow: 7px 4px 2px black;
+    -webkit-text-stroke-color: yellow;
+    -webkit-text-stroke-width: 0.3px;
+    font-size: 20px;
+}

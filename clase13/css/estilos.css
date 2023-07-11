@@ -1,0 +1,74 @@
+@font-face {
+    font-family: inder;
+    src: url(../fuente/Inder-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: alegreya_bold;
+    src: url(../fuente/Alegreya-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: alegreya_medium;
+    src: url(../fuente/Alegreya-Medium.ttf) format('truetype');
+}
+
+header {
+    font-family: alegreya_medium;
+    font-size: 24px;
+    color: white;
+}
+
+body {
+    background: url("img_html/fondol3.jpg");
+    background-repeat: no-repeat;
+    background-color: #F9F1CF;
+}
+
+section {
+    font-family: inder;
+    font-size: 12px;
+}
+
+nav {
+    font-family: alegreya-bold;
+    color: silver;
+    font-size: 25px;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 4px 70px;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+}
+
+nav:hover {
+    cursor: default;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+    font-size: 25px;
+}
+
+a:hover {
+    color: white;
+}
+
+footer {
+    font-family: alegreya_medium;
+    font-size: 13px;
+    color: silver;
+}
+
+#titulo {
+    font-family: alegreya_medium;
+    font-size: 18px;
+    margin-top: 47px;
+}

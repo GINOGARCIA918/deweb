@@ -1,0 +1,89 @@
+.cuerpo{
+    background-color: black;
+}
+.titulo{
+    text-align: center;
+    color: orange;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 7px 5px 5px;
+}
+.caja1{
+    border: 1px solid rgb(64, 118, 139);
+    border-radius: 5px;
+    background-color: rgb(64, 118, 139);
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.caja2{
+    border: 1px solid rgb(64, 118, 139);
+    border-radius: 5px;
+    background-color: rgb(64, 118, 139);
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.caja3{
+    margin:auto;
+    margin-top: 10px; 
+    padding: 5px; 
+    width: 490px;
+    background-color: white;
+    border-radius:10px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+}
+.articulos{
+    border: 1px solid rgb(36, 36, 57);
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    margin: 5px;
+    width: 337px;
+    background-color: rgb(36, 36, 57);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.seccion{
+    border: 1px solid rgb(64, 118, 139);
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    background-color: rgb(64, 118, 139);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.aside{
+    border: 1px solid rgb(64, 118, 139);
+    width: 130px;
+    height: 110px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 5px;
+    background-color: rgb(64, 118, 139);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.caja4{
+    border: 1px solid rgb(64, 118, 139);
+    border-radius: 5px;
+    background-color: rgb(64, 118, 139);
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,14 @@
+.baner{
+    border: 1px solid black;
+    width: 800px;
+    text-align: center;
+    text-shadow: 9px 5px 5px gray;
+    border-radius: 20px;
+    margin: 50px auto;
+    background-color: red;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px; 
+    font-family: 'Roboto Mono', monospace;
+    padding: 40px auto;
+    font-size: 25px;
+}
