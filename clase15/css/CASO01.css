@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(203, 203, 203);
+}
+
+input[type=text] {
+    width: 500px;
+    padding: 8px 20px;
+    margin: 8px auto;
+    margin-left: 10%;
+    box-sizing: border-box;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+}
+
+input[type=texto] {
+    width: 500px;
+    padding: 8px 20px;
+    margin: 8px auto;
+    margin-left: 13%;
+    box-sizing: border-box;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+}
+
+select {
+    width: 500px;
+    padding: 5px 20px;
+    margin: 8px auto;
+    margin-left: 15%;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+textarea {
+    width: 500px;
+    height: 150px;
+    margin: 8px;
+    margin-left: 18%;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-size: 16px;
+    resize: none;
+}
+
+input[type=button]{
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    margin-left: 44%;
+    cursor: pointer;
+    font-size: 20px;
+}
