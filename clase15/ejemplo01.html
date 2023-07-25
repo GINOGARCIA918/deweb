@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios1</title>
+</head>
+<body>
+    <h2>Formulario HTML</h2>
+    <form action="/action_page.php">
+        <label for="fname">Nombre de pila</label><br>
+        <input type="text" name="fname" id="fname" value="Gino"><br>
+        <label for="lname">Apellido</label><br>
+        <input type="text" name="lname" id="lname" value="Garcia"><br><br>
+        <label for="">Elija su idioma favorito</label><br><br>
+        <input type="radio" name="fav_language" id="html">
+        <label for="">HTML</label><br>
+        <input type="radio" name="fav_language" id="html">
+        <label for="">CSS</label><br>
+        <input type="radio" name="fav_language" id="html">
+        <label for="">JAVASCRIPT</label><br><br>
+        <label for="">Elija la movilidad en que te desplazas</label><br><br>
+        <input type="checkbox" id="vinicle1" name="vinicle1" value=bike>
+        <label for="vinicle1">Tengo una bicicleta</label><br>
+        <input type="checkbox" id="vinicle2" name="vinicle2" value=car>
+        <label for="vinicle2">Tengo un carro</label><br>
+        <input type="checkbox" id="vinicle3" name="vinicle3" value=boat>
+        <label for="vinicle3">Tengo un yate</label><br><br>
+        <input type="submit" value="Entregar">
+        <input type="reset" value="Limpiar">
+    </form>
+    <p>Si hace  clic en el boton  "Enviar", los datos el formulario se enviaran a una pagina llamada "/action_page.php"</p>
+</body>
+</html> 
