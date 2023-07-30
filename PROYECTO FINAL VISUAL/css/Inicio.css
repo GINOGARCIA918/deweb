@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace; 
+}
+
+.cabeza{
+    background-image:url(https://img.freepik.com/fotos-premium/casa-moderna-gran-patio-delantero-casa-grande-gran-jardin_781958-478.jpg);
+    background-size: 100%;
+}
+
+#audios {
+    text-align: center; 
+}
+
+#subcabeza {
+    width: 710px;
+    margin: auto;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    background-color: goldenrod;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-shadow: 10px 10px 5px gray;
+}
+
+nav ul {
+    background-color: goldenrod;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+nav ul li {
+    display: inline-flex;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    width: 150px;
+}
+
+nav ul a:hover {
+    background-color: black;
+    color: goldenrod;
+}
+
+img {
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 5px; 
+}
+
+.contenido {
+    display: flex;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/736/872/desktop-wallpaper-architecture-black-and-white.jpg);
+    background-size: 100%;
+
+}
+
+.contenido div {
+    width: 50%;
+    color: white;
+}
+
+.contenido h3 {
+    text-align: center;
+    margin: 30px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#center img {
+    width: 350px;
+    border-radius: 25%;
+    border: 10px solid goldenrod;
+    margin: 30px;
+    transition: transform 500ms;
+} 
+
+#center img:hover {
+    transform: scale(1.1,1.1);
+}
+
+.contenido img {
+    width: 350px;
+    border-radius: 25%;
+    border: 10px solid goldenrod;
+    margin: 30px;
+    transition: transform 1000ms;
+} 
+
+.contenido img:hover{
+    transform: rotate( 15deg);
+}
+
+#abajo_izquierda:hover {
+    transform: rotate( -15deg);
+}
+
+#arriba_derecha:hover {
+    transform: rotate( -15deg);
+}
+
+.contenido2 {
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg);
+    background-size: 100%;
+    
+}
+
+.contenido2 div {
+    display: flex;
+    transition: transform 5000ms;
+    
+}
+
+.contenido2 div p {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: goldenrod;
+    border-radius: 20px;
+}
+.contenido2 div iframe {
+    margin: 40px auto;
+    width: 360px;
+    height: 205px;
+    border: 5px solid orange;
+    border-radius: 20px;
+    transition: transform 1000ms;
+}
+
+.contenido2 div iframe:hover{
+    transform: scale(1.1, 1.1);
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    display: flex;
+    /*flex-direction: row; 
+    flex-wrap: wrap;*/
+}
+
+footer img {
+    padding: 5px;
+    width: 32px;
+    background-color: black;
+    margin-top: 20px; 
+}
+
+footer aside {
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin: 50px;   
+}
+
+footer aside p {
+    text-align: center;
+    color: white;
+    margin: 10px;
+    
+}
+footer aside h3 {
+    text-align: center;
+    color: white;
+    margin: 10px;
+    
+}
+
+
+
+
